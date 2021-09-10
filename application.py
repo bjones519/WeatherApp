@@ -1,9 +1,8 @@
 from flask import Flask, request, Response, render_template
 import requests
 from flask_sqlalchemy import SQLAlchemy
-import math
 
-app = Flask(__name__)
+application = app = Flask(__name__)
 app.config['DEBUG']= True
 
 if __name__ == '__main__':
