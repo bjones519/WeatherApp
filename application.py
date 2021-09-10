@@ -1,6 +1,5 @@
 from flask import Flask, request, Response, render_template
 import requests
-from flask_sqlalchemy import SQLAlchemy
 
 application = app = Flask(__name__)
 app.config['DEBUG']= True
